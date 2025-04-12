@@ -19,9 +19,7 @@ Money Mosaic is a sleek, responsive web application that empowers users to manag
 
 HTML5: Structure of the web pages.
 
-CSS3: Styling and layout, including Flexbox for responsiveness.
-
-JavaScript (ES6): Functionality and interactivity.
+CSS3: Styling and layout.
 
 Google Fonts: 'Poppins' font for enhanced typography
 
@@ -48,14 +46,6 @@ money-mosaic/
 
 ~Click the "Add Expense" button to log the expense.
 
-~Monitor Budget Utilization:
 
-View the circular progress bar to assess how much of your budget has been utilized.
 
-The percentage and color indicators provide immediate feedback.
 
-Manage Expenses:
-
-~Review the list of added expenses in the "Expenses List" section.
-
-~Remove any expense by clicking the corresponding delete button.
