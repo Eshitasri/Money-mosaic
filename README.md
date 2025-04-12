@@ -29,11 +29,10 @@ Google Fonts: 'Poppins' font for enhanced typography
 
 money-mosaic/
 
-├── index.html          # Main HTML file
+├── first.html          # Main HTML file
 
 ├── first.css           # Stylesheet
 
-└── first.js            # JavaScript functionality
 
 ## Navigation Guide
 
