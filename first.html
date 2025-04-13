@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEY MOSAIC</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="header">
+                <div id="side1">
+                    <img src="logo.jpeg" alt="" height="100" width="100">
+                </div>
+                <div id="side2">
+                    <h1>MONEY MOSAIC</h1>
+                    <h4>The Personal Finance Manager</h4>
+                    <br>
+                </div>
+            </div>
+            <h4>Track your expenses, set budgets, and visualize spending trends.</h4>
+        </header>
+
+        <div class="budget-section">
+            <h2>Set Your Budget</h2>
+            <input type="number" id="budgetInput" placeholder="Enter your budget">
+            <button onclick="setBudget()">Set Budget</button>
+        </div>
+
+
+        <div class="expense-section">
+            <h2>Add Expense</h2>
+            <input type="text" id="expenseDesc" placeholder="Expense Description">
+            <input type="number" id="expenseAmount" placeholder="Amount">
+            <input type="date" id="expenseDate">
+            <input type="file" id="receiptUpload" accept="image/*,application/pdf">
+            <select id="expenseCategory">
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Bills">Bills</option>
+                <option value="Other">Other</option>
+            </select>
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+
+        <div class="circular-progress-section">
+            <h2>Budget Utilization</h2>
+            <div class="circular-progress">
+                <span class="progress-value" style="color: white;">0%</span>
+                <svg class="progress-svg">
+                    <circle class="progress-background" cx="50%" cy="50%" r="50" />
+                    <circle class="progress-bar" cx="50%" cy="50%" r="50" />
+                </svg>
+            </div>
+            <div id="budgetDetails">
+                <p style="color: white;">Total Budget: ₹<span id="totalBudget">0</span></p>
+                <p style="color: white;">Total Expenses: ₹<span id="totalExpenses">0</span></p>
+                <p style="color: white;">Remaining Budget: ₹<span id="remainingBudget">0</span></p>
+            </div>
+
+
+     <p id="budgetAlert" style="color: red; font-weight: bold;"></p>
+        </div>
+
+        <div class="expense-list-section">
+            <h2>Expenses List</h2>
+            <ul id="expenseList"></ul>
+            <div style="margin-top: 20px;">
+                <button onclick="exportToCSV()">📤 DOWNLOAD THE LIST</button>
+            </div>
+        </div>
+
+        <button onclick="clearAllData()">🧹 Clear All</button>
+
+        <div class="chart-section">
+            <h2>Spending by Category</h2>
+            <canvas id="categoryChart" width="400" height="400"></canvas>
+        </div>
+
+        <div class="summary-section">
+            <h2>Monthly Summary</h2>
+            <div id="monthlySummary">
+                <!-- This will be dynamically updated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="first.js"></script>
+</body>
+</html>
