@@ -1,4 +1,5 @@
-#Money Mosaic:The Personal Finance Manager
+#Money Mosaic:
+The Personal Finance Manager
 
 Money Mosaic is a sleek, responsive web application that empowers users to manage their personal finances effectively. With features like budget setting, expense tracking, and visual progress indicators, it offers a comprehensive solution for financial planning.
 
@@ -28,7 +29,7 @@ Google Fonts: 'Poppins' font for enhanced typography
 
 money-mosaic/
 
-├── index.html # Main HTML file
+├── first.html # Main HTML file
 
 ├── first.css # Stylesheet
 
