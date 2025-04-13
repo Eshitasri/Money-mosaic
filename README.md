@@ -1,9 +1,8 @@
-
-# Money Mosaic:The Personal Finance Manager
+#Money Mosaic:The Personal Finance Manager
 
 Money Mosaic is a sleek, responsive web application that empowers users to manage their personal finances effectively. With features like budget setting, expense tracking, and visual progress indicators, it offers a comprehensive solution for financial planning.
-## Features
 
+##Features
 
 -Budget Management: Set and update your financial budget.
 
@@ -15,24 +14,27 @@ Money Mosaic is a sleek, responsive web application that empowers users to manag
 
 -User-Friendly Interface: Intuitive layout for seamless navigation.
 
-## Tech Stack
+##Tech Stack
 
 HTML5: Structure of the web pages.
 
-CSS3: Styling and layout.
+CSS3: Styling and layout, including Flexbox for responsiveness.
+
+JavaScript (ES6): Functionality and interactivity.
 
 Google Fonts: 'Poppins' font for enhanced typography
 
-## Project Structure
+##Project Structure
 
 money-mosaic/
 
-├── first.html          # Main HTML file
+├── index.html # Main HTML file
 
-├── first.css           # Stylesheet
+├── first.css # Stylesheet
 
+└── first.js # JavaScript functionality
 
-## Navigation Guide
+##Navigation Guide
 
 ~Set Your Budget:
 
@@ -46,6 +48,37 @@ money-mosaic/
 
 ~Click the "Add Expense" button to log the expense.
 
+~Monitor Budget Utilization:
+
+View the circular progress bar to assess how much of your budget has been utilized.
+
+The percentage and color indicators provide immediate feedback.
+
+Manage Expenses:
+
+~Review the list of added expenses in the "Expenses List" section.
+
+~Remove any expense by clicking the corresponding delete button.
+
+~You can also edit the expense list by clicking on the edit icon.
+
+~Go through the monthly summary.
+
+~Download the list of expenses if you want.
+
+~Clear the data if you want.
+
+##🛠 Skills
+
+Javascript, HTML, CSS...
 
 
+##Used By
 
+This project can be used by the following personnels:
+
+Anyone willing to get their finances managed.
+
+A person looking for proper budget tracking system.
+
+A HOSTELER Struggling to get his low budget be sorted.
